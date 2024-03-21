@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country Project</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input type="search" id="inputSearch" placeholder="Rechercher...." />
+      <div class="top-container">
+        <input type="range" value="24" max="250" id="inputRange" />
+        <span id="rangeValue">24</span>
+      </div>
+      <button class="btnSort" id="minToMax">Tri Croissant</button>
+      <button class="btnSort" id="minToMin">Tri Décroissant</button>
+      <button class="btnSort" id="alpha">Tri Alphabétique</button>
+    </div>
+
+    <div class="content"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

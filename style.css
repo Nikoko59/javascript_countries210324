@@ -1,0 +1,88 @@
+body { 
+    background: #f2f2f2;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 30px;
+    text-align: center;
+}
+
+input[type="search"] {
+    background: #070142; 
+    color : orange;
+    padding: 10px;
+    font-size : 1.1rem ; 
+    margin: 20px auto;
+    display: block;
+
+}
+
+input[type="range"]{
+margin: 20px;
+width: 250px;
+}
+
+button {
+    background: orange;
+    color : #070142 ; 
+ font-size : 1.1rem ; 
+ padding: 10px; 
+ cursor : pointer ; 
+}
+
+#rangeValue {
+    font-size: 1.2rem ; 
+    background: orange;
+    color : "#070142"; 
+    padding: 5px;
+    font-weight: 600;
+    border-radius : 50px; 
+
+}
+
+img {
+    width: 160px;
+    height: 100px;
+    object-fit: cover;
+    text-align: center;
+}
+
+.card {
+    flex: 1 0 20% ; 
+    min-width: 300px;
+    background: #070142;
+    margin: 5px;
+    color : white; 
+    padding: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius : 20px ; 
+    opacity : 0.5 ; 
+
+}
+
+.card:hover {
+    background: orange;
+    transition : 0.3s ease-in ; 
+    color :  #070142 ; 
+    opacity : 1 ;
+
+}
+
+.content {
+    display: flex;
+    flex-wrap : wrap; 
+    text-align: center;
+    
+
+}
+
+h2 {
+    font-size : 1.4rem ; 
+    font-weight: 600;
+}
+
+h4 {
+    font-size : 1.2rem ; 
+    font-weight: 600;
+}
